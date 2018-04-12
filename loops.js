@@ -8,11 +8,13 @@ function forLoop(array) {
     }
     array.push(stringToAdd);
   }
+  return array;
 }
 
 function whileLoop(number) {
-  while (number >= 0) {
-    console.log(number--);
+  console.log(number)
+  while (number > 0) {
+    console.log(--number);
   }
   return 'done';
 }
