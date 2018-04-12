@@ -10,3 +10,18 @@ function forLoop(array) {
   }
 }
 
+function whileLoop(number) {
+  while (number >= 0) {
+    console.log(number--);
+  }
+}
+
+function maybeTrue() {
+  return Math.random() >= 0.5;
+}
+
+function doWhileLoop(array) {
+  do {
+    array.pop();
+  } while (array.length > 0 && maybeTrue());
+}
